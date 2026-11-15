@@ -9,6 +9,7 @@ import java.net.InetSocketAddress;
 import java.sql.*;
 
 public class ClubServer {
+    // MySQL Bağlantı Bilgileri (Şifren yoksa password kısmını boş bırakabilirsin)
     private static final String DB_URL = "jdbc:mysql://localhost:3306/club_web_db?useSSL=false&serverTimezone=UTC";
     private static final String DB_USER = "root";
     private static final String DB_PASSWORD = "";
