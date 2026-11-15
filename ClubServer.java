@@ -16,7 +16,7 @@ import java.util.Map;
 public class ClubServer {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/club_web_db";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "1327ElfaRs*!";
+    private static final String DB_PASSWORD = "";
 
     private static String loggedInUser = null;
     private static String loggedInRole = null;
