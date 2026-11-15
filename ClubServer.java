@@ -14,9 +14,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ClubServer {
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/club_web_db";
-    private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "";
+    private static final String DB_URL = "jdbc:mysql://mysql-f9f048c-arslannelif725-19f6.g.aivencloud.com:15014/defaultdb?sslMode=REQUIRED";
+    private static final String DB_USER = "avnadmin";
+    private static final String DB_PASSWORD = System.getenv("DB_PASSWORD");
 
     private static String loggedInUser = null;
     private static String loggedInRole = null;
